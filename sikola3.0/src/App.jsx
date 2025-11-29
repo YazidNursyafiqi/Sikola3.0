@@ -2,12 +2,18 @@ import { useState } from 'react'
 import Header from "./header/header.jsx"
 import styles from './app.module.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+//container:
+import Navbar from './container/navbar/main_navbar.jsx';
+import Content from './container/content/main_content.jsx';
 
-  return (
+function App() {
+  return(
     <>
       <Header/>
+      <div id={styles.main_container}>
+        <Navbar/>
+        <Content/>
+      </div>
     </>
   )
 }
