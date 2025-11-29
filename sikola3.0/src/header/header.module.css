@@ -26,11 +26,6 @@
     margin-right: 10px;
 }
 
-#header_right_side img{
-    height: 75%;
-    margin-left: 5px;
-}
-
 #header_right_side a{
     padding: 18px;
     text-decoration: none;
@@ -44,4 +39,11 @@
     background-color: rgb(203, 20, 0);
 }
 
+#darkmode_button{
+    height: 50%;
+}
 
+#account_button{
+    height: 80%;
+    margin-left: 5px;
+}
