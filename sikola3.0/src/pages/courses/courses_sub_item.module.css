@@ -1,0 +1,27 @@
+.Course_card_item_container{
+    background-color: rgb(222, 222, 255);
+    width: 250px;
+
+    display: block;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.Course_card_item_container img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Course_card_item_information{
+    padding-left: 10px;
+}
+
+.Course_card_item_information_title{
+    font-weight: 500;
+    color: rgb(57, 57, 57);
+    font-size: 1.5rem;
+    margin-top: 10px ;
+}
